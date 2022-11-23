@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "work-smart-not-hard-project-2",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://anzhelika-light.github.io/Work-smart-not-hard-project-2-/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Work-smart-not-hard-project-2/"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.0",
     "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-webmanifest": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
